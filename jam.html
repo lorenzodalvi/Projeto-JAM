@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Jam Company</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <div class="logo-img"><img src="imgs/jam.jpg"></div>
+            </div>
+            <div class="menu">
+                <img class="menu-opener" src="imgs/menu.png"/>
+                <nav>
+                    <ul>
+                       <li class="active"><a href="">Home</a></li>
+                       <li><a href="">Shirts</a></li>
+                       <li><a href="">Shorts</a></li>
+                       <li><a href="">Caps</a></li>
+                       <li><a href="">Bags</a></li>
+                       
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="header"></div>
+                <div class="slider">
+                    <div class="slider--controls">
+                        <div class="slider--control" onclick="goPrev()"> </div>
+                        <div class="slider--control" onclick="goNext()"> </div>
+                    </div>
+                    <div class="slider--width">
+                        <div class="slider--item" style="background-image:url('imgs/peita3.jpg');"></div>
+                    <div class="slider--item" style="background-image:url('imgs/peita2.jpg');"></div>
+                    <div class="slider--item" style="background-image:url('imgs/peita1.jpg');"></div>
+                    </div>
+                </div>
+        </section>    
+            <div class="sliders-pointers">
+                <div class="pointer active"></div>
+                <div class="pointer"></div>
+                <div class="pointer"></div>
+            </div>
+        </section>
+
+        <section class="default grey">
+            <div class="section-title">About us</div>
+            <div class="section-desc">who we are?</div>
+            <div class="section-body">
+                <div class="section-aboutus">
+                    <div class="section-aboutus--left">
+                        <p>ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis scelerisque diam, eu dapibus velit. Vivamus sollicitudin nisl vel sodales tincidunt. Suspendisse nec magna sapien. Praesent fermentum eget erat nec blandit. Praesent id lectus quis sem mattis iaculis. Nulla vitae tellus consequat, laoreet urna ac, mattis lacus. Aenean sed metus gravida, rutrum libero vitae, consectetur velit. Vestibulum aliquam odio id sem egestas mattis. Donec tincidunt mauris sit amet nunc tempor, vel dignissim nibh ornare. Nunc ac neque et nibh efficitur tempus in in nulla.</p>
+                        <br>
+                        <a href="" class="button">Learn More</a>
+                    </div>
+                    <div class="section-aboutus--right">
+                        <img src="imgs/jam.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default dark">
+            <div class="section-title">Services</div>
+            <div class="section-desc">Services that we provide</div>
+            <div class="section-body">
+                <div class="section-services">
+                    <div class="section-service">
+                        <img src="assets/images/medalha.png" alt="">
+                        <h4>High Quality<br>Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="assets/images/estrela.png" alt="">
+                        <h4>Mordern Design</h4>
+                        <br>
+                        <p class="section-service--p--margin">Lorem ipsum dolor sit amet consectetur adipiscing</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="assets/images/relogio.png" alt="">
+                        <h4>Regular<br>Updates</h4>
+                        <p>Donec tincidunt mauris</p>
+                    </div>
+                    <div class="section-service">
+                        <img src="assets/images/balao.png" alt="">
+                        <h4>Fast and free<br>support</h4>
+                        <p>Morbi ex felis, tincidunt sed<br>hendrerit</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <section class="default grey">
+            <div class="section-title">Contact us</div>
+            <div class="section-desc">Our agency located in melbourne, australia</div>
+            <div class="section-body">
+                <div class="section-contact">
+                    <div class="section-contact--us">
+                       <form action="text">
+                           <div class="um">
+                            <input type="text" name="name" id="name" placeholder="Name" autofocus>
+                            <input type="email" name="email" id="email" placeholder="Email">
+                           </div>
+                           <div class="dois">
+                            <input type="text" name="subject" id="subject" placeholder="Subject">
+                            <input type="text" name="message" id="message" placeholder="Message">
+                           </div>
+                       </form>
+                    </div>
+                    <div class="button-contact">
+                        <a href="" class="button">Send Message</a>
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+       
+    
+    <script src="script.js"></script>
+</body>
+</html>
